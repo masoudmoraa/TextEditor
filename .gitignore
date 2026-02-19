@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Build Folders
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.aps
+*.pch
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.tlog
+*.log
+
+# Executables / Binaries
+*.exe
+*.dll
+*.lib
+*.exp
+
+*.user
