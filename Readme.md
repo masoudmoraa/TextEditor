@@ -5,8 +5,6 @@ This project demonstrates low-level keyboard input handling, cursor management, 
 
 ## Demo
 
-## Demo
-
 <p align="center">
   <img src="assets/demo.gif" width="90%">
   <br>
