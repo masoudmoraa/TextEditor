@@ -1,7 +1,11 @@
-## Text Editor (C++ Console Application)
-A modular console-based text editor written in C++, built using object-oriented design and the Windows Console API.
+<h1 align="center">Text Editor (C++ Console Application)</h1>
 
+<p align="center">
+A modular console-based text editor written in C++, built using object-oriented design and the Windows Console API.
+<br>
 This project demonstrates low-level keyboard input handling, cursor management, file system operations, and customizable console rendering.
+
+</p>
 
 ## Demo
 
@@ -107,3 +111,8 @@ main.cpp
 
 - Executable will be generated in: ``` x64/Release/ ```
 - Running the Application : ```TextEditor.exe```
+
+## Download
+
+Prebuilt Windows x64 executable: [Download Text Editor v1.0.0](https://github.com/masoudmoraa/TextEditor/releases/tag/v1.0.0)
+
