@@ -3,6 +3,16 @@ A modular console-based text editor written in C++, built using object-oriented 
 
 This project demonstrates low-level keyboard input handling, cursor management, file system operations, and customizable console rendering.
 
+## Demo
+
+## Demo
+
+<p align="center">
+  <img src="assets/demo.gif" width="90%">
+  <br>
+  <em>Some features of the Text Editor in action.</em>
+</p>
+
 
 ## Features  
 ### File Management
@@ -54,16 +64,16 @@ TextEditor.sln
 The project is organized into four main components with clear responsibilities.
 
 ### Editor (Application Controller)
-Editor is the main orchestrator of the program. It owns the application state (colors, menu option, selection state, search state) and manages the high-level flow
+- Editor is the main orchestrator of the program. It owns the application state (colors, menu option, selection state, search state) and manages the high-level flow
 
 ### File (Document Model + File System Operations)
-File represents the currently opened document and contains the editable text data and file-related operations
+- File represents the currently opened document and contains the editable text data and file-related operations
 
 ### Console (Rendering / UI Layer)
-Console is responsible for printing and updating the console UI using the Windows Console API.
+- Console is responsible for printing and updating the console UI using the Windows Console API.
 
 ### Cursor (Cursor & Navigation Utilities)
-Cursor provides low-level cursor control helpers.
+- Cursor provides low-level cursor control helpers.
 
 --- 
 
@@ -82,6 +92,14 @@ Cursor provides low-level cursor control helpers.
     - Console refreshes only the affected lines and highlights when needed
     - Cursor controls navigation and selection movement
 
+```
+main.cpp
+  └── Editor (controller)
+        ├── File (document model + IO)
+        ├── Console (rendering + highlighting)
+        └── Cursor (cursor utilities)
+
+```
 
 ## How to Build
 1. Open TextEditor.sln in Visual Studio
